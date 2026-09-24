@@ -1,26 +1,38 @@
 # Buscador de juicios — piloto La Plata
 
-Objetivo: buscar un apellido en los organismos del Departamento Judicial La Plata disponibles en la MEV y reunir coincidencias con carátula, número, organismo y enlace.
+Objetivo: buscar un apellido en los organismos de La Plata disponibles en la MEV y reunir carátula, número, organismo y enlace.
 
-## Estado real
+## Resultado real del piloto — 24/09/2026
 
-Relevamiento iniciado el 24/09/2026. Repositorio inicialmente vacío. Se comprobó que https://mev.scba.gov.ar/loguin.asp presenta ingreso con usuario, contraseña y departamento de creación. No hay todavía una sesión autenticada para el piloto. **No se ejecutaron búsquedas ni se verificó el listado de organismos. No hay un buscador funcional aún.**
+- Ingreso autenticado a la MEV: exitoso.
+- Selección del Departamento Judicial La Plata: exitosa.
+- Inventario de la sección general: **45 organismos** observados en el selector. Sus nombres e identificadores originales están en [data/la-plata-organismos.json](data/la-plata-organismos.json).
+- Formulario observado: búsqueda por carátula, número de expediente o receptoría; selector de un único organismo; estado activos, archivados o ambos (ambos seleccionado).
+- Primera prueba: búsqueda por carátula en Juzgado Civil y Comercial 1, incluyendo activos y archivados.
+- Respuesta: **“Validando acceso ... El sistema está verificando si está siendo navegado por un ser humano. Si esto demora vuelva a cargar la página”**.
+- Se recargó una sola vez siguiendo el aviso, con idéntico resultado. Se detuvo la prueba sin eludir la verificación.
 
-## Prueba de integración pendiente de autenticación
+**Balance: 1 consulta intentada y bloqueada; 0 consultas completadas; 44 organismos generales sin probar. No se obtuvieron resultados ni se verificó paginación. Familia, Penal y Justicia de Paz no fueron relevados. No hay un buscador funcional ni cobertura completa comprobada.**
 
-1. Relevar el listado real de organismos de La Plata ofrecido por la MEV, conservando sus identificadores y nombres; no inferir cobertura a partir de numeraciones.
-2. Verificar formulario y semántica de búsqueda por carátula/apellido en un organismo.
-3. Ejecutar una consulta de control y comprobar paginación y resultados con el sitio.
-4. Repetir secuencialmente en todos los organismos disponibles de La Plata, con pausas, cancelación y detención ante bloqueo o vencimiento de sesión.
-5. Registrar por organismo: pendiente, consultando, completado con coincidencias, completado sin coincidencias, acceso restringido o error. Un error nunca cuenta como cero resultados.
-6. Medir tiempo total, tiempo por organismo, páginas revisadas y cobertura efectiva.
+## Alcance del inventario
 
-La búsqueda por apellido identifica coincidencias en el campo consultado; no prueba identidad ni asegura localizar a todas las partes de un expediente. La cobertura se limita a lo publicado y accesible para el usuario. La página oficial informa que Familia y Penal requieren autorización, al igual que determinados expedientes de otros fueros.
+El selector observado incluye cámaras, juzgados civiles y contenciosos, tribunales laborales, el Juzgado Notarial y la Secretaría de Apremios. Se preserva la lista real, incluidos saltos de numeración; no equivale a todos los organismos de la provincia ni a todos los fueros de La Plata.
 
-## Seguridad y datos
+## Próximas verificaciones necesarias
 
-No incorporar al repositorio contraseñas, cookies, sesiones, expedientes ni resultados con datos personales. La autenticación se realiza en la MEV. El mecanismo definitivo de integración se decidirá después de observar y validar el flujo autenticado; no se presupone una API pública ni autorización para eludir controles.
+1. Resolver la verificación humana mediante el flujo admitido por el sitio antes de continuar las consultas.
+2. Contrastar resultados y paginación de una consulta real con la MEV.
+3. Recorrer secuencialmente los organismos, con pausas y cancelación, deteniéndose ante bloqueo, límite o sesión vencida.
+4. Relevar por separado Familia, Penal y Justicia de Paz y sus restricciones de acceso.
+5. Medir duración por organismo, páginas consultadas y cobertura efectiva; no estimar tiempos como si estuvieran medidos.
 
-## Criterio para considerar exitoso el piloto
+## Requisitos del futuro buscador
 
-Inventario de organismos observado en una sesión real, recorrido documentado, resultados contrastados con la MEV y todos los errores/restricciones explícitos. Hasta completar esas comprobaciones no se promete cobertura total ni tiempos de búsqueda.
+- Estados por organismo: pendiente, consultando, completo con coincidencias, completo sin coincidencias, acceso restringido, bloqueado o error.
+- Un error o una consulta pendiente nunca se presenta como cero coincidencias.
+- La búsqueda por carátula identifica coincidencias textuales, no identidad de personas ni todas las partes de un expediente.
+- La cobertura se limita a lo publicado y accesible para el usuario. La página oficial informa que Familia y Penal requieren autorización, al igual que algunos expedientes de otros fueros.
+- No guardar en Git contraseñas, cookies, sesiones ni resultados judiciales con datos personales.
+- La integración definitiva depende de validar el flujo permitido. No se presupone API pública ni se eluden controles del sitio.
+
+Fuente: interfaz autenticada de https://mev.scba.gov.ar/ observada durante el piloto. Este repositorio conserva el relevamiento y el estado de la prueba; todavía no contiene una aplicación operativa.
