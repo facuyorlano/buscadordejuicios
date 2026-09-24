@@ -1,0 +1,235 @@
+{
+  "observedAt": "2026-09-24",
+  "source": "https://mev.scba.gov.ar/",
+  "jurisdiction": "La Plata",
+  "section": "General (sin seleccionar Familia ni Penal)",
+  "inventoryCompleteForObservedSelect": true,
+  "provinceCoverageVerified": false,
+  "organisms": [
+    {
+      "id": "GAM1460 ",
+      "name": "Cámara Primera en lo Civil y Comercial - PRESIDENCIA ",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM210  ",
+      "name": "Cámara Primera en lo Civil y Comercial - SALA   I",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM211  ",
+      "name": "Cámara Primera en lo Civil y Comercial - SALA  II",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM212  ",
+      "name": "Cámara Primera en lo Civil y Comercial - SALA III",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM1461 ",
+      "name": "Cámara Segunda en lo Civil y Comercial - PRESIDENCIA ",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM213  ",
+      "name": "Cámara Segunda en lo Civil y Comercial - SALA   I",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM214  ",
+      "name": "Cámara Segunda en lo Civil y Comercial - SALA  II",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM215  ",
+      "name": "Cámara Segunda en lo Civil y Comercial - SALA  III",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM1624 ",
+      "name": "Juzgado Contencioso Administrativo  1",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM1625 ",
+      "name": "Juzgado Contencioso Administrativo  2",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM1677 ",
+      "name": "Juzgado Contencioso Administrativo  3",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM2721 ",
+      "name": "Juzgado Contencioso Administrativo  4",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM4141 ",
+      "name": "CAMARA DE APELACION CONTENCIOSO ADMINISTRATIVO",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM1660 ",
+      "name": "Cámara de Apelación en lo Contencioso Adm Sala I ",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM4140 ",
+      "name": "CÁMARA DE APELACIÓN EN LO CONTENCIOSO ADM SALA II",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM238  ",
+      "name": "Juzgado Civil y Comercial  1",
+      "testStatus": "blocked_human_verification"
+    },
+    {
+      "id": "GAM239  ",
+      "name": "Juzgado Civil y Comercial  2",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM241  ",
+      "name": "Juzgado Civil y Comercial  4 ",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM242  ",
+      "name": "Juzgado Civil y Comercial  5",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM243  ",
+      "name": "Juzgado Civil y Comercial  6",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM244  ",
+      "name": "Juzgado Civil y Comercial  7",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM245  ",
+      "name": "Juzgado Civil y Comercial  8",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM246  ",
+      "name": "Juzgado Civil y Comercial  9",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM247  ",
+      "name": "Juzgado Civil y Comercial 10",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM248  ",
+      "name": "Juzgado Civil y Comercial 11",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM249  ",
+      "name": "Juzgado Civil y Comercial 12",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM250  ",
+      "name": "Juzgado Civil y Comercial 13",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM251  ",
+      "name": "Juzgado Civil y Comercial 14",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM253  ",
+      "name": "Juzgado Civil y Comercial 16",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM254  ",
+      "name": "Juzgado Civil y Comercial 17",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM255  ",
+      "name": "Juzgado Civil y Comercial 18",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM256  ",
+      "name": "Juzgado Civil y Comercial 19",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM257  ",
+      "name": "Juzgado Civil y Comercial 20",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM258  ",
+      "name": "Juzgado Civil y Comercial 21 ",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM259  ",
+      "name": "Juzgado Civil y Comercial 22 ",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM260  ",
+      "name": "Juzgado Civil y Comercial 23",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM262  ",
+      "name": "Juzgado Civil y Comercial 25",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM264  ",
+      "name": "Juzgado Civil y Comercial 27",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM301  ",
+      "name": "Tribunal de Trabajo  1",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM302  ",
+      "name": "Tribunal de Trabajo  2",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM303  ",
+      "name": "Tribunal de Trabajo  3 ",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM304  ",
+      "name": "Tribunal de Trabajo  4",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM1048 ",
+      "name": "Tribunal de Trabajo  5 ",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM266  ",
+      "name": "Juzgado Notarial de la Provincia",
+      "testStatus": "not_tested"
+    },
+    {
+      "id": "GAM1584 ",
+      "name": "Secretaría de Apremios",
+      "testStatus": "not_tested"
+    }
+  ]
+}
